@@ -1,0 +1,70 @@
+Task---1
+
+Dear sir, I will create a migration file categories and if you give me the filed I have complete please check my migration file
+
+
+Task---2
+
+Dear sir, I will create a model that's name is Category, and it associated categories table. In this model I will define properties and relationship. Please check my Category Model.
+
+
+Task---3
+
+Dear sir, I will create a migration file that's name is posts and a category_id define foreign key constrain in this posts table please check the posts migration file.
+
+
+Task---4
+
+Dear sir, I will create two model Category and Post and define their relationship in a model. please check the model.
+
+
+Task---5
+
+Dear sir, I write a query in AssignmentController using Eloquent ORM that's retrieve all posts along with their associated categories. Please check the AssignmentController.
+
+
+Task---6
+
+Dear sir, I will implement a method in POst Model. It will get the total number of posts belonging to a specific category. it will accept a category_id as parameter so web.php file I will define the route and the AssignmentController i write a query that's return
+total number of posts belonging to a specific category. Please check the Post model, web.php file, and AssignmentController file.
+
+
+
+Task---7
+
+Dear sir, I will create a new route in web.php file and that handles the following URL pattern: "/posts/{id}/delete". Then i will write a query in AssignmentController that deletes a post using id
+and I will use soft deletes. I will create a soft deletes migration file for posts table. Please check the AssignmentController, web.php file and soft deletes migration file.
+
+
+
+
+Task---8
+
+Dear sir, I will implement a method in Post Model it gets all posts that have been soft deleted and AssignmentController controller it returns a collection of soft deleted posts.
+Sir, Please check the Post model and AssignmentController file.
+
+
+Task---9
+
+Sir, I write a app.blade.php file that display all posts and their associated categories. Please check app.blade.php file and AssignmentController file this file
+return view and send data in blade file.
+
+
+
+Task---10
+
+Sir, I will create a new route in web.php file that follows URL pattern: "/categories/{id}/posts". I will  implement a controller method to retrieve all posts belonging to a specific category.
+ The category ID well be passed as a parameter to the method. Please check AssignmentController file and web.php file.
+
+
+Task---11
+
+I will implement a method in Category Model it gets the latest post associated with the category. In AssignmentController this method should return the post-object.
+Please check Category Model and AssignmentController.
+
+
+Task---12
+
+I will create a post.blade.php file it well display the latest post for each category, and I am using a loop to iterate over the categories and display the post details.
+Please check post.blade.php file and AssignmentController. The AssignmentController returns a view and sends the latest post data in post.blade.php file.
+
